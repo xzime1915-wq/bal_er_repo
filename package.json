@@ -1,0 +1,19 @@
+{
+  "name": "senz",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SENZ — JARVIS-style PC automation agent",
+  "scripts": {
+    "install:all": "npm install --prefix frontend && pip install -r backend/requirements.txt",
+    "app": "npm run desktop --prefix frontend",
+    "desktop": "npm run desktop --prefix frontend",
+    "backend": "cd backend && python main.py",
+    "frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "setup": "npm run install:all",
+    "start": "npm run app"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

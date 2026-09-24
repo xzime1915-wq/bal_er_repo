@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "JetBrains Mono", Consolas, monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a3a5c;
+  border-radius: 3px;
+}
+
+.panel {
+  @apply bg-senz-panel/80 border border-senz-border/60 rounded-lg backdrop-blur-sm;
+}
+
+.panel-title {
+  @apply text-[10px] uppercase tracking-[0.2em] text-senz-muted font-semibold px-3 pt-2;
+}
+
+.glow-text {
+  text-shadow: 0 0 12px rgba(0, 229, 255, 0.6);
+}
+
+@keyframes pulse-ring {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.sphere-pulse {
+  animation: pulse-ring 3s ease-in-out infinite;
+}

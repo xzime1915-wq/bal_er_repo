@@ -1,0 +1,11 @@
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.env
+data/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.mp3

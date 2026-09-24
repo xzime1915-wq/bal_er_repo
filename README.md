@@ -1,4 +1,4 @@
-# shawonnnn 1111
+# shawonnn
 
 **SENZ** is a JARVIS-style PC automation agent for Windows — voice + chat control over your computer, powered by Google Gemini.
 

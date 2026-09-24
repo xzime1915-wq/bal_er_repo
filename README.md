@@ -1,4 +1,4 @@
-# bal er info
+# 3 bolod
 
 **SENZ** is a JARVIS-style PC automation agent for Windows — voice + chat control over your computer, powered by Google Gemini.
 
